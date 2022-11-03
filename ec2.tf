@@ -2,7 +2,7 @@ resource "aws_instance" "ubuntu" {
   for_each = var.ami
   ami           = each.value
   instance_type = "t2.medium"
-  key_name = "test-class"
+  key_name = "prod-key"
 
 
   tags = {
