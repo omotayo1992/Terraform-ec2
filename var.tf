@@ -12,6 +12,3 @@ variable "ami" {
   
 }
 
-
-variable "profile" {}
-   
