@@ -11,3 +11,7 @@ variable "ami" {
     }
   
 }
+
+
+variable "profile" {}
+   
