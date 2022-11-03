@@ -12,4 +12,4 @@ variable "ami" {
   
 }
 
-variable "profile" {}
+variable "creds" {}
